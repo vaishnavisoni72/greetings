@@ -1,9 +1,12 @@
-import logo from './logo.svg';
+import React,{useState} from 'react';
 import './App.css';
 
 function App() {
+  let [Name,setName]= useState("vaishnavi")
   return (
-   <div>lklkgjslkf</div>
+   <div>
+    <h1>hello {Name}</h1>
+   </div>
   );
 }
 
